@@ -1,8 +1,10 @@
-print("hello git!")
+print("Hello Git!")
 print("To use this calculator please input two numbers after the prompt:")
 # Prompt for user input
 a = float(input("Enter the first number: "))
 b = float(input("Enter the second number: "))
-sum = a+b;
-print(sum);
-print("Thank you")
+add = a+b;
+sub = a-b;
+print('Sum : ',add);
+print("Difference : ",sub)
+print("Operation Successful! Exiting...")
