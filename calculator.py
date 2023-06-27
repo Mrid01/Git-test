@@ -6,7 +6,9 @@ b = float(input("Enter the second number: "))
 add = a+b;
 sub = a-b;
 multiply = a*b;
+div = a/b;
 print('Sum : ',add);
 print("Difference : ",sub);
 print("Product : ",multiply);
+print("Division : ",div);
 print("Operation Successful! Exiting...")
